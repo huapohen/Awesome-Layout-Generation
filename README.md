@@ -39,21 +39,24 @@
 ## Tasks related to layout generation（布局生成的相关任务）
 Tasks related to layout generation（布局生成的相关任务）：
 
-基于条件的生成： 
-  1. 基于类型（type）+个数（number）的框的布局生成：即有几个框，框的类型是什么。Layout generation of boxes based on type + number: that is, how many boxes are there, what is the type of the box?
-  2. 基于初始化框，进行布局补全(completion) 。Based on the initialized box, perform layout completion 
-  3. 布局调整/重排(refinement or rearrange) 
+基于条件的生成(Condition-based generation):
+  1. 基于类型+个数的布局生成：即有几个框，框的类型是什么。Layout generation of boxes based on type + number
+  2. 基于初始化框，进行布局补全。Based on the initialized box, perform layout completion 
+  3. 布局调整/重排。layout refinement or rearrangement
   4. 基于类型、个数、大小的布局生成。Layout generation based on type, number, and size 
 <p align="center">
   <img width="460" src="https://github.com/huapohen/Awesome-Layout-Generation/blob/main/assets/conditional.png">
 </p>   
-  5. content-aware text-box generation      
-  6. multimodal inputs + prompter     
-  7. generate image or wireframe directly      
-  8. inpainting: according to poster layout box, generate elements      
+  5. content-aware text-box generation  <br>
+  6. multimodal inputs + prompter <br>
+  7. generate image or wireframe directly  <br>
+  8. inpainting or outpainting: according to poster layout box, generate elements or background <br>
 <p align="center">
   <img width="460" src="https://github.com/huapohen/Awesome-Layout-Generation/blob/main/assets/poster_box_layout.png">
-</p> 
-  10. others   
+</p>  
+  9. others   
 
 
+## datasets
+- Rico: A Mobile App Dataset for Building Data-Driven Design Applications (**ACM UIST** 2017) [[Paper]](http://ranjithakumar.net/resources/rico.pdf) [[dataset]](http://www.interactionmining.org/rico.html#quick-downloads)
+- PubLayNet: largest dataset ever for document layout analysis (**ICDAR** 2019) [[Paper]](https://arxiv.org/pdf/1908.07836v1.pdf) [[dataset]](https://github.com/ibm-aur-nlp/PubLayNet)

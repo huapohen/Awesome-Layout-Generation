@@ -5,7 +5,7 @@
 
 ## What is Layout ？
 
-Layout refers to the three elements [**position, size, and type**] of the relevant elements in the layout (or in the image). It is often used in graphic design, poster design, UI layout design, printing layout design, magazine design, etc. Relevant elements can be foregrounds such as [**text, objects**], without background. Text can be divided into [_a large word in a frame, a line of words in a frame, or multiple lines of words in a frame, or any words combined into a frame_] according to different granularities. ], objects with different granularities can be divided into [_frames of main elements, frames of auxiliary elements, and frames composed of arbitrary objects_].
+**Layout** refers to the three elements [**position, size, and type**] of the relevant elements in the layout (or in the image). It is often used in graphic design, poster design, UI layout design, printing layout design, magazine design, etc. Relevant elements can be foregrounds such as [**text, objects**], without background. Text can be divided into [_a large word in a frame, a line of words in a frame, or multiple lines of words in a frame, or any words combined into a frame_] according to different granularities. ], objects with different granularities can be divided into [_frames of main elements, frames of auxiliary elements, and frames composed of arbitrary objects_].
 
 
 **布局(Layout)**，即版面中（也可以是图像中）有关元素的框的【**位置、大小、类型**】三要素，常用于平面设计、海报设计、UI排版设计、印刷排版设计、杂志设计、等等。有关元素可以是【**文字、物体**】这类前景，没有背景，文字根据粒度不同可以分为【_一个很大的字一个框、一行字一个框、或多行字一个框、任意字组合成一个框_】，物体粒度不同可以分为【_主体元素的框、辅助元素的框、任意物体组合后的框_】。

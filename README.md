@@ -67,3 +67,6 @@ Tasks related to layout generation（布局生成的相关任务）：
 - CLG v1: Composition-aware Graphic Layout GAN for Visual-textual Presentation Designs (**IJCAI** 2022) [[Paper]](https://arxiv.org/pdf/2205.00303v3.pdf) [[dataset]](https://tianchi.aliyun.com/dataset/142692)
 - CLG v2: Relation-Aware Diffusion Model for Controllable Poster Layout Generation (**CIKM** 2023) [[Paper]](https://arxiv.org/pdf/2306.09086.pdf) [[dataset]](https://github.com/liuan0803/RADM?tab=readme-ov-file)
 - PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout (**CVPR** 2023) [[Paper]](https://arxiv.org/pdf/2303.15937v1.pdf) [[dataset]](https://github.com/PKU-ICST-MIPL/PosterLayout-CVPR2023)
+
+
+## papers (only for unconditional layout generation)

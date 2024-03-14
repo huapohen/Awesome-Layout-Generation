@@ -37,8 +37,9 @@
 </p>
 
 ## Tasks related to layout generation（布局生成的相关任务）
-Tasks related to layout generation（布局生成的相关任务）：
-
+无条件生成(unconditional generation):  
+  - Diffusion Model  
+      
 基于条件的生成(Condition-based generation):
   1. 基于类型+个数的布局生成：即有几个框，框的类型是什么。Layout generation of boxes based on type + number
   2. 基于初始化框，进行布局补全。Based on the initialized box, perform layout completion 
@@ -67,6 +68,48 @@ Tasks related to layout generation（布局生成的相关任务）：
 - CLG v1: Composition-aware Graphic Layout GAN for Visual-textual Presentation Designs (**IJCAI** 2022) [[Paper]](https://arxiv.org/pdf/2205.00303v3.pdf) [[dataset]](https://tianchi.aliyun.com/dataset/142692)
 - CLG v2: Relation-Aware Diffusion Model for Controllable Poster Layout Generation (**CIKM** 2023) [[Paper]](https://arxiv.org/pdf/2306.09086.pdf) [[dataset]](https://github.com/liuan0803/RADM?tab=readme-ov-file)
 - PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout (**CVPR** 2023) [[Paper]](https://arxiv.org/pdf/2303.15937v1.pdf) [[dataset]](https://github.com/PKU-ICST-MIPL/PosterLayout-CVPR2023)
+- Huggingface reference link: https://github.com/pytorch-layout-generation
 
 
-## papers (only for unconditional layout generation)
+## papers (containing unconditional generation)
+## 2024
+- LayoutNUWA: Revealing the Hidden Layout Expertise of Large Language Models (**ICLR** 2024) [[paper]](https://openreview.net/pdf?id=qCUWVT0Ayy)
+- Towards Aligned Layout Generation via Diffusion Model with Aesthetic Constraints (**ICLR** 2024) [[paper]](https://arxiv.org/pdf/2402.04754v1.pdf)
+- Spot the Error:  Non-autoregressive Graphic Layout Generation with Wireframe Locator (**ICLR** 2024) [[paper]](https://arxiv.org/pdf/2401.16375v1.pdf)
+- Dolfin: Diffusion Layout Transformers without Autoencoder (**withdraw**) [[paper]](https://arxiv.org/pdf/2310.16305v1.pdf)
+
+## 2023
+- LayoutDM: Discrete Diffusion Model for Controllable Layout Generation (**CVPR** 2023) [[paper]](https://arxiv.org/pdf/2303.08137v1.pdf) [[**code**]](https://github.com/CyberAgentAILab/layout-dm)
+- LayoutDiffusion: Improving Graphic Layout Generation by Discrete Diffusion Probabilistic Models (**ICCV** 2023) [[paper]](https://arxiv.org/pdf/2303.11589v2.pdf)
+- Diffusion-based Document Layout Generation (**ICDAR** 2023) [[paper]](https://arxiv.org/pdf/2303.10787v1.pdf) [[**code**]](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutDiffusion)
+- LayoutPrompter: Awaken the Design Ability of  Large Language Models (**NeurIPS** 2023) [[paper]](https://arxiv.org/pdf/2311.06495v1.pdf) [[**code**]](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutPrompter)
+- A Parse-Then-Place Approach for Generating Graphic Layouts  from Textual Descriptions (**ICCV** 2023) [[paper]](https://arxiv.org/pdf/2308.12700v1.pdf)
+- Unifying Layout Generation with a Decoupled Diffusion Model (**CVPR** 2023) [[paper]](https://arxiv.org/pdf/2303.05049v1.pdf)
+- LayoutDM: Transformer-based Diffusion Model for Layout Generation (**CVPR** 2023) [[paper]](https://arxiv.org/pdf/2305.02567v1.pdf)
+- DLT: Conditioned layout generation with  Joint Discrete-Continuous Diffusion Layout Transformer (**ICCV** 2023) [[paper]](https://arxiv.org/pdf/2303.03755v1.pdf) [[**code**]](https://github.com/wix-incubator/DLT)
+- PLay: Parametrically Conditioned Layout Generation using Latent Diffusion (**ICML** 2023) [[paper]](https://arxiv.org/pdf/2301.11529v2.pdf)
+
+before 2023, I don't collect papers.
+## 2022
+- Composition-aware Graphic Layout GAN for  Visual-textual Presentation Designs (**IJCAI** 2022) [[paper]](https://arxiv.org/pdf/2205.00303v3.pdf)
+- Layout Generation as Intermediate Action Sequence Prediction (**AAAI** 2023) [[paper 2205]](https://arxiv.org/pdf/2205.00303v3.pdf)
+- LayoutFormer++: Conditional Graphic Layout Generation via Constraint Serialization and Decoding Space Restriction (**CVPR** 2023) [[paper 2208]](https://github.com/microsoft/KC/tree/main/papers/LayoutAction)
+
+## 2021
+- BLT: Bidirectional Layout Transformer for Controllable Layout Generation (**ECCV** 2022) [[paper 2112]](https://arxiv.org/pdf/2112.05112v2.pdf) [[**code**]](https://github.com/google-research/google-research/tree/master/layout-blt)
+- Constrained Graphic Layout Generation via Latent Optimization (**ACM MM** 2021) [[paper]](https://arxiv.org/pdf/2108.00871v1.pdf) [[**code**]](https://github.com/ktrk115/const_layout)
+- LayoutTransformer: Scene Layout Generation with Conceptual and Spatial Diversity (**CVPR** 2021) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_LayoutTransformer_Scene_Layout_Generation_With_Conceptual_and_Spatial_Diversity_CVPR_2021_paper.pdf) [[**code**]](https://github.com/davidhalladay/LayoutTransformer)
+
+## 2020
+- READ: Recursive Autoencoders for Document Layout Generation (**CVPRW** 2020) [[paper]](https://arxiv.org/pdf/1909.00302v4.pdf)
+
+## 2019
+- Neural Design Network: Graphic Layout  Generation with Constraints (**ECCV** 2020) [[paper 1912]](https://arxiv.org/pdf/1912.09421v2.pdf)
+- Content-aware Generative Modeling of Graphic Design Layouts (**SIGRAPH** 2019) [[paper]](https://xtqiao.com/projects/content_aware_layout/paper.pdf) [[**code+dataset**]](https://xtqiao.com/projects/content_aware_layout/paper.pdf)
+- LayoutGAN: Synthesizing Graphic Layouts with Vector-Wireframe Adversarial Networks (**ICLR** 2019) [[paper]](https://arxiv.org/pdf/1901.06767.pdf)
+- LayoutVAE: Stochastic Scene Layout Generation From a Label Set (**ICCV** 2019) [[paper]](https://arxiv.org/abs/1907.10719)
+
+## papers reference links:
+https://github.com/JosephKJ/Awesome-Layout-Generators  
+https://github.com/microsoft/LayoutGeneration  
+https://github.com/Layout-Generation/layout-generation  

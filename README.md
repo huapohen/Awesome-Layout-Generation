@@ -68,7 +68,6 @@ Condition-based generation(基于条件的生成):
 - CLG v1: Composition-aware Graphic Layout GAN for Visual-textual Presentation Designs (**IJCAI** 2022) [[Paper]](https://arxiv.org/pdf/2205.00303v3.pdf) [[dataset]](https://tianchi.aliyun.com/dataset/142692)
 - CLG v2: Relation-Aware Diffusion Model for Controllable Poster Layout Generation (**CIKM** 2023) [[Paper]](https://arxiv.org/pdf/2306.09086.pdf) [[dataset]](https://github.com/liuan0803/RADM?tab=readme-ov-file)
 - PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout (**CVPR** 2023) [[Paper]](https://arxiv.org/pdf/2303.15937v1.pdf) [[dataset]](https://github.com/PKU-ICST-MIPL/PosterLayout-CVPR2023)
-- Huggingface reference link: https://github.com/pytorch-layout-generation
 
 
 ## papers (containing unconditional generation)
@@ -77,6 +76,7 @@ Condition-based generation(基于条件的生成):
 - Towards Aligned Layout Generation via Diffusion Model with Aesthetic Constraints (**ICLR** 2024) [[paper]](https://arxiv.org/pdf/2402.04754v1.pdf)
 - Spot the Error:  Non-autoregressive Graphic Layout Generation with Wireframe Locator (**ICLR** 2024) [[paper]](https://arxiv.org/pdf/2401.16375v1.pdf)
 - Dolfin: Diffusion Layout Transformers without Autoencoder (**withdraw**) [[paper]](https://arxiv.org/pdf/2310.16305v1.pdf)
+- CVPR 2024 TODO
 
 ## 2023
 - LayoutDM: Discrete Diffusion Model for Controllable Layout Generation (**CVPR** 2023) [[paper]](https://arxiv.org/pdf/2303.08137v1.pdf) [[**code**]](https://github.com/CyberAgentAILab/layout-dm)
@@ -109,7 +109,8 @@ before 2023, I don't collect papers.
 - LayoutGAN: Synthesizing Graphic Layouts with Vector-Wireframe Adversarial Networks (**ICLR** 2019) [[paper]](https://arxiv.org/pdf/1901.06767.pdf)
 - LayoutVAE: Stochastic Scene Layout Generation From a Label Set (**ICCV** 2019) [[paper]](https://arxiv.org/abs/1907.10719)
 
-## papers reference links:
+## reference links:
 https://github.com/JosephKJ/Awesome-Layout-Generators  
 https://github.com/microsoft/LayoutGeneration  
 https://github.com/Layout-Generation/layout-generation  
+https://github.com/pytorch-layout-generation (dataset)  

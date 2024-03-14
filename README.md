@@ -37,10 +37,10 @@
 </p>
 
 ## Tasks related to layout generation（布局生成的相关任务）
-无条件生成(unconditional generation):  
+Unconditional generation(无条件生成):  
   - Diffusion Model  
       
-基于条件的生成(Condition-based generation):
+Condition-based generation(基于条件的生成):
   1. 基于类型+个数的布局生成：即有几个框，框的类型是什么。Layout generation of boxes based on type + number
   2. 基于初始化框，进行布局补全。Based on the initialized box, perform layout completion 
   3. 布局调整/重排。layout refinement or rearrangement

@@ -1,6 +1,6 @@
 # Awesome-Layout-Generation
 <p align="center">
-  <img width="460" src="https://github.com/huapohen/Awesome-Layout-Generation/blob/main/layout2023.png">
+  <img width="460" src="https://github.com/huapohen/Awesome-Layout-Generation/blob/main/assets/layout2023.png">
 </p>
 
 ## What is Layout ？

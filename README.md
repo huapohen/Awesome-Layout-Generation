@@ -58,5 +58,12 @@ Tasks related to layout generation（布局生成的相关任务）：
 
 
 ## datasets
-- Rico: A Mobile App Dataset for Building Data-Driven Design Applications (**ACM UIST** 2017) [[Paper]](http://ranjithakumar.net/resources/rico.pdf) [[dataset]](http://www.interactionmining.org/rico.html#quick-downloads)
-- PubLayNet: largest dataset ever for document layout analysis (**ICDAR** 2019) [[Paper]](https://arxiv.org/pdf/1908.07836v1.pdf) [[dataset]](https://github.com/ibm-aur-nlp/PubLayNet)
+- **Rico**: A Mobile App Dataset for Building Data-Driven Design Applications (**ACM UIST** 2017) [[Paper]](http://ranjithakumar.net/resources/rico.pdf) [[dataset]](http://www.interactionmining.org/rico.html#quick-downloads)
+- **PubLayNet**: largest dataset ever for document layout analysis (**ICDAR** 2019) [[Paper]](https://arxiv.org/pdf/1908.07836v1.pdf) [[dataset]](https://github.com/ibm-aur-nlp/PubLayNet)
+- Magazine: Content-aware Generative Modeling of Graphic Design Layouts (**SIGRAPH** 2019) [[Paper]](https://xtqiao.com/projects/content_aware_layout/paper.pdf) [[dataset]](https://xtqiao.com/projects/content_aware_layout/)
+- WebUI: WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics (**CHI** 2023) [[Paper]](https://arxiv.org/pdf/2301.13280v1.pdf) [[dataset]](https://uimodeling.github.io/)
+- DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis (**KDD** 2022) [[Paper]](https://arxiv.org/pdf/2206.01062v1.pdf) [[dataset]](https://github.com/DS4SD/DocLayNet)
+- M6Doc: A Large-Scale Multi-Format, Multi-Type, Multi-Layout, Multi-Language, Multi-Annotation Category Dataset for Modern Document Layout Analysis (**CVPR** 2023) [[Paper]](https://arxiv.org/pdf/2305.08719.pdf) [[dataset]](https://github.com/HCIILAB/M6Doc)
+- CLG v1: Composition-aware Graphic Layout GAN for Visual-textual Presentation Designs (**IJCAI** 2022) [[Paper]](https://arxiv.org/pdf/2205.00303v3.pdf) [[dataset]](https://tianchi.aliyun.com/dataset/142692)
+- CLG v2: Relation-Aware Diffusion Model for Controllable Poster Layout Generation (**CIKM** 2023) [[Paper]](https://arxiv.org/pdf/2306.09086.pdf) [[dataset]](https://github.com/liuan0803/RADM?tab=readme-ov-file)
+- PosterLayout: A New Benchmark and Approach for Content-aware Visual-Textual Presentation Layout (**CVPR** 2023) [[Paper]](https://arxiv.org/pdf/2303.15937v1.pdf) [[dataset]](https://github.com/PKU-ICST-MIPL/PosterLayout-CVPR2023)

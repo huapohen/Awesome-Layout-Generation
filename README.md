@@ -93,7 +93,7 @@ before 2023, I don't collect papers.
 ## 2022
 - Composition-aware Graphic Layout GAN for  Visual-textual Presentation Designs (**IJCAI** 2022) [[paper]](https://arxiv.org/pdf/2205.00303v3.pdf)
 - Layout Generation as Intermediate Action Sequence Prediction (**AAAI** 2023) [[paper 2205]](https://arxiv.org/pdf/2205.00303v3.pdf)
-- LayoutFormer++: Conditional Graphic Layout Generation via Constraint Serialization and Decoding Space Restriction (**CVPR** 2023) [[paper 2208]](https://github.com/microsoft/KC/tree/main/papers/LayoutAction)
+- LayoutFormer++: Conditional Graphic Layout Generation via Constraint Serialization and Decoding Space Restriction (**CVPR** 2023) [[paper 2208]](https://arxiv.org/pdf/2208.08037.pdf)
 
 ## 2021
 - BLT: Bidirectional Layout Transformer for Controllable Layout Generation (**ECCV** 2022) [[paper 2112]](https://arxiv.org/pdf/2112.05112v2.pdf) [[**code**]](https://github.com/google-research/google-research/tree/master/layout-blt)

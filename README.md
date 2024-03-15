@@ -107,7 +107,7 @@ before 2023, I don't collect papers.
 - Neural Design Network: Graphic Layout  Generation with Constraints (**ECCV** 2020) [[paper 1912]](https://arxiv.org/pdf/1912.09421v2.pdf)
 - Content-aware Generative Modeling of Graphic Design Layouts (**SIGRAPH** 2019) [[paper]](https://xtqiao.com/projects/content_aware_layout/paper.pdf) [[**code+dataset**]](https://xtqiao.com/projects/content_aware_layout/paper.pdf)
 - LayoutGAN: Synthesizing Graphic Layouts with Vector-Wireframe Adversarial Networks (**ICLR** 2019) [[paper]](https://arxiv.org/pdf/1901.06767.pdf)
-- LayoutVAE: Stochastic Scene Layout Generation From a Label Set (**ICCV** 2019) [[paper]](https://arxiv.org/abs/1907.10719)
+- LayoutVAE: Stochastic Scene Layout Generation From a Label Set (**ICCV** 2019) [[paper]](https://arxiv.org/pdf/1907.10719v3.pdf)
 
 ## reference links:
 https://github.com/JosephKJ/Awesome-Layout-Generators  
